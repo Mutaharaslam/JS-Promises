@@ -7,7 +7,7 @@ let s  =  new Promise((resolve, reject) => {
         }
     })
     s.then((message) =>{
-        <div>Success {message}</div>
+        console.log('Success' + message)
     }).catch((message) =>{
-        <div>Failed {message}</div>
+        console.log('Failed' + message)
     })
